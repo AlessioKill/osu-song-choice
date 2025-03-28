@@ -1,6 +1,5 @@
 import os
 import random
-import os
 beatmaps = input("Put the path of the osu songs directory: ")
 if os.path.isdir(beatmaps): 
     file_nomi = os.listdir(beatmaps)
