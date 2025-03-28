@@ -1,6 +1,6 @@
 import os
 import random
-beatmaps = input("Put the path of the osu songs directory: ")
+beatmaps = input("\Put the path of the osu songs directory: ")
 if os.path.isdir(beatmaps): 
     file_nomi = os.listdir(beatmaps)
     song = random.choice(file_nomi)
